@@ -4,56 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AuthorPage</title>
+    <title>author page</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel ="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="normalize.css">
     <script src="https://kit.fontawesome.com/d9b151347e.js" crossorigin="anonymous"></script>
+    <script src="Script.js"></script>
 </head>
 <body>
-    <header>
     
-        <div id="topnav" class="navbar">
-            <a class="logo" target="_home" href="http://127.0.0.1:5500/index.html">
-                <img class="logo-img" src="./Images/logo.png" alt="Brian Alexandre Offical Store">
+<a class="logo" target="_home" href="http://127.0.0.1:5500/index.html">
+        <img class="logo-img" src="./Images/profile.png" alt="Brian Alexandre Offical Store">
+    </a>
+</div>
+<div id="topnav" class="navbar">
+
+
+
+    <ul class="navbar-ul">
+        
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Books</a>
+        <a href="#">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars align-center line-height: 0px"></i>
+        </a>
+        </ul>
+    </div>
+    
+
+    
+    <br>
+    <br>
+
+    <section class="book-section">
+        <article class="book-content">
+            <a class ="dawn" target="_home" href="http://127.0.0.1:5500/index.html">
+                <img class="dawn-img" src="Images/Dawn of the Doratlues.pdf" alt="Dawn Of The Dortalues">
             </a>
-            <ul>
-                <a href="#" class="active">Home</a>
-                <a href="#">About</a>
-                <a href="#">Books</a>
-                <a href="#">Contact</a>
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                    <i class="fa fa-bars"></i>
-                </a>
-                </ul>
+        </article>
+    </section>
+
+    <div class="social-buttons">
+        <a href="#" class="fa fa-twitter fa-fw fa-2x fa-fade" style="color:black; text-decoration: none;">
+        <a href="#" class="fa fa-instagram fa-fw fa-2x fa-fade" style="color:black; text-decoration: none;"></a>
+        <a href="#" class="fab fa-goodreads fa-fw fa-2x fa-fade" style="color:black; text-decoration: none;"></a>
         </div>
-        
-    </header>
+    
+    <div class="form-container">
+        <p class="form-text">Sign up with your email address to receive news and updates.</p>
+    <form id="newsletter">
+        <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Email address"
+        required
+        />
 
+        <button type="submit" class="signupbtn">Sign Up</button>
+
+        
+
+    </form>
+    <div class="waiver-text">
+    <p>We Respect Your <span class="waiver">Privacy</span></p>
+</div>
+</div>
+    
 
     
-<section class="book-section">
-    <article class="content-book">
-        <h2 class="content-book-text">Rise of the Dortalues</h2>
-        <a class ="rise" target="_home" href="http://127.0.0.1:5500/index.html">
-            <img class="dawn-img" src="Images/Dawn of the Dortalues.jpg" alt="Dawn Of The Dortalues">
-        </a>
-   </article>
-   <div class="social-buttons">
-       <img src="goodreads-brands.svg"/>
-    <i class="fas fa-twitter-square"></i>
-       <a href="#" class="fa fa-twitter">
-           <i class="fa fa-twitter"></i>
-        </a>
-       <a href="#" class="fa fa-instagram"></a>
-       <a href="#" class="fa-goodreads"></a>
-   </div>
-</section>
-
     
-
-    <script src="Script.js"></script>
-        
     
 </body>
 </html>
